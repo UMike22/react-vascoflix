@@ -4,7 +4,9 @@ import LogoFired from './components/LogoFired';
 import ButtonFired from './components/ButtonFired';
 import FooterVasco from './components/FooterVasco';
 import LinkPerson from './components/Link/link';
-import ToStrong from './components/ToStrong';
+import LogoImersao from './components/LogoImersao';
+import Banner from './components/BannerFront';
+import TagVasco from './components/TagVascoFlix';
 
 function App() {
   return (
@@ -13,10 +15,13 @@ function App() {
       <LogoFired />
       <ButtonFired>Novo Video</ButtonFired>
     </HeaderFired>
+    <Banner>
+      <TagVasco>Front End</TagVasco>
+    </Banner>
     <FooterVasco>
       <LogoFired />
       <p>
-        Site feito na <ToStrong>#ImersaoReact</ToStrong> por <LinkPerson href="https://www.instagram.com/mikaelvsouza/?hl=pt-br">Mikael Vieira</LinkPerson>
+        Site feito na por  <a href="https://www.alura.com.br"><LogoImersao /></a> <LinkPerson href="https://www.instagram.com/mikaelvsouza/?hl=pt-br">Mikael Vieira</LinkPerson>
       </p>
     </FooterVasco>
     </>

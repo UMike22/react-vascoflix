@@ -8,17 +8,15 @@ const FooterVasco = styled.footer`
     font-size: 16rem;
     background-color: var(--color-black-dark);
     color: var(--color-gray-light);
+    border-top: 4px solid var(--color-gray-light);
     padding: 20rem 0;
-    border-top: 4px solid var(--color-red-border);
     font-weight:300;
 
     & > ${LogoFired} {
-        margin-bottom:20rem;
+        margin-bottom:15rem;
     }
 
-    @media (max-width:800px){
-        display:none;
-    }
+    
 
 
 

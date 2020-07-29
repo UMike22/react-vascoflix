@@ -9,6 +9,12 @@ const ButtonFired = styled.button`
     border-radius: 4px;
     font-size: 18rem;
     cursor: pointer;
+    
+   
+    
+    
+  
+
 `;
 
 export default ButtonFired;
