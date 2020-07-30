@@ -1,10 +1,20 @@
 import styled from 'styled-components'
+import Container from '../tools/container';
 
 
-const Banner = styled.section`
+ export const Banner = styled.section`
+    
+    max-height: 70vh;
+    
+    ${Container};
 
 
 
 
 `;
-export default Banner;
+export const Text = styled.div`
+display:flex;
+flex-direction:column;
+align-items:flex-start
+
+`;
