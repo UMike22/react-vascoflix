@@ -20,7 +20,7 @@ overflow: hidden;
 transition:transform  100ms linear;
 
 &:hover{
-        transform:translate(-10rem,-10rem);
+        transform:scale(1.04);
         
     & > ${Avatar}{
        transform:translateX(0%);
