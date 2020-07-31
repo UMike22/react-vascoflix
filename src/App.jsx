@@ -11,6 +11,7 @@ import Title from './components/TittleVascoFlix';
 import Description from './components/description';
 import ThumbVasco from './components/ThumbVasco';
 import ribameme from './assets/img/ribameme.jpg'
+import CruzMalta from './assets/img/cruz-de-malta-vasco.png'
 function App() {
   return (
     <>
@@ -29,7 +30,7 @@ function App() {
          
         </Description>
       </Text>
-      <ThumbVasco src={ribameme}  />
+      <ThumbVasco src={ribameme} avatar={CruzMalta} nameChannel={'Ribamar maior que pelé'} />
     </Banner>
     <FooterVasco>
       <LogoFired />
