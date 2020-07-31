@@ -1,13 +1,11 @@
-import styled from 'styled-components';
+import React from 'react';
+import { WrapperVasco, Thumb } from './styles';
 
-const ThumbVasco = styled.img`
-border-radius:4px;
-border:1px solid var(--color-gray-light);
-width: 640rem;
-
-
-
-
-`;
+function ThumbVasco ({src, alt}) {
+   return ( <WrapperVasco>
+        <Thumb src={src} alt={alt} />
+    </WrapperVasco>
+   )
+}
 
 export default ThumbVasco;

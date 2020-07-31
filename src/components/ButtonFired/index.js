@@ -9,7 +9,10 @@ const ButtonFired = styled.button`
     border-radius: 4px;
     font-size: 18rem;
     cursor: pointer;
-    
+    transition: opacity 300ms linear ;
+    &:hover{
+        opacity:0.6;
+    }
    
     
     

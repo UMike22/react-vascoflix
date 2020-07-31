@@ -1,5 +1,5 @@
 import React from 'react';
-import HeaderFired from './components/HeaderFired';
+import {HeaderFired,Wrapper} from './components/HeaderFired';
 import LogoFired from './components/LogoFired';
 import ButtonFired from './components/ButtonFired';
 import FooterVasco from './components/FooterVasco';
@@ -15,21 +15,26 @@ function App() {
   return (
     <>
     <HeaderFired>
-      <LogoFired />
-      <ButtonFired>Novo Video</ButtonFired>
+      <Wrapper>
+        <LogoFired />
+        <ButtonFired>Novo Video</ButtonFired>
+      </Wrapper>
     </HeaderFired>
     <Banner>
       <Text>
-        <TagVasco>Front End</TagVasco>
+        <TagVasco>Ribagol</TagVasco>
         <Title>Ribamar: incrível talento para perder gols</Title>
-        <Description>Um mito, uma lenda ,uma besta enjaulada uma maquina de perder gols!</Description>
+        <Description>
+        Lucas Ribamar Lopes dos Santos Bibiano, mais conhecido apenas como Ribamar (Rio de Janeiro, 21 de maio de 1997), é um futebolista brasileiro que atua como atacante. Atualmente joga no Vasco da Gama.
+         
+        </Description>
       </Text>
-      <ThumbVasco src={ribameme} />
+      <ThumbVasco src={ribameme}  />
     </Banner>
     <FooterVasco>
       <LogoFired />
       <p>
-        Site feito na por  <a href="https://www.alura.com.br"><LogoImersao /></a> <LinkPerson href="https://www.instagram.com/mikaelvsouza/?hl=pt-br">Mikael Vieira</LinkPerson>
+        Site feito na <a href="https://www.alura.com.br"><LogoImersao /></a> por <LinkPerson href="https://www.instagram.com/mikaelvsouza/?hl=pt-br">Mikael Vieira</LinkPerson>
       </p>
     </FooterVasco>
     </>

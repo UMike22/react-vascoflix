@@ -1,7 +1,7 @@
 const Container = `
-max-width:1360px;
-margin-right:0;
-margin-left:0;
+max-width:1100rem;
+margin-right:auto;
+margin-left:auto;
 `
 
 export default Container

@@ -11,6 +11,7 @@ const FooterVasco = styled.footer`
     border-top: 4px solid var(--color-gray-light);
     padding: 20rem 0;
     font-weight:300;
+    height:80rem;
 
     & > ${LogoFired} {
         margin-bottom:15rem;
