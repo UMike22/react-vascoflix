@@ -18,7 +18,7 @@ function App() {
     <HeaderFired>
       <Wrapper>
         <LogoFired />
-        <ButtonFired>Novo Video</ButtonFired>
+        <ButtonFired as="a" href="/video/new">Novo Video</ButtonFired>
       </Wrapper>
     </HeaderFired>
     <Banner>
